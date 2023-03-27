@@ -91,7 +91,7 @@ const Todo = () => {
         <div className="main">
             <div className="sub-main">
                 <img className="notes-img" src={img} alt="notes-img" />
-                <p className="sub-main-content">Add Your List Here 💜📍</p>
+                <p className="sub-main-content">Add Your List Here 💜</p>
                 <div className="add-item">
                     <input value={inputData} onChange={onChangeHandlerinput} className="input-field" type="text" placeholder="Write something ✍️...." />
                     {toggleSubmit ? <span className="plus" onClick={onCickHandlerAddItem} ><MdAddBox /></span> : <div onClick={onCickHandlerAddItem} className="plus edit each-item margin" ><FaEdit /></div>}
