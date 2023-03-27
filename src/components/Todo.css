@@ -15,7 +15,7 @@
 
 .sub-main-content{
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-bottom: 1rem;
 }
 
@@ -35,7 +35,12 @@
     margin-left: -3rem;
     background-color: white;
     font-size: 1.7rem;
-    margin-top: .2rem;
+    margin-top: .6rem;
+    color: orange;
+    padding: 0 .5rem;
+}
+.plus:hover{
+    color: orangered;
 }
 .margin{
     margin-top: .8rem;
@@ -82,7 +87,7 @@
 }
 
 .name{
-    font-size: 1.5rem;   
+    font-size: 1.2rem;   
 }  
 
 .delete-all-btn{
